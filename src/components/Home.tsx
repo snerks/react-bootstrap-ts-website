@@ -19,7 +19,7 @@ export default class Home extends React.Component<{}, {}> {
         </Jumbotron>
         <Row className="show-grid text-center">
           <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets/person-1.jpg" circle className="profile-pic" />
+            <Image src="./assets/person-1.jpg" circle className="profile-pic" />
             <h3>Frank</h3>
             <p>
               That's a crooked tree. We'll send him to Washington. These little
@@ -28,7 +28,7 @@ export default class Home extends React.Component<{}, {}> {
             </p>
           </Col>
           <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets/person-2.jpg" circle className="profile-pic" />
+            <Image src="./assets/person-2.jpg" circle className="profile-pic" />
             <h3>Vanessa</h3>
             <p>
               That's a crooked tree. We'll send him to Washington. These little
@@ -37,7 +37,7 @@ export default class Home extends React.Component<{}, {}> {
             </p>
           </Col>
           <Col xs={12} sm={4} className="person-wrapper">
-            <Image src="assets/person-3.jpg" circle className="profile-pic" />
+            <Image src="./assets/person-3.jpg" circle className="profile-pic" />
             <h3>Riff</h3>
             <p>
               That's a crooked tree. We'll send him to Washington. These little

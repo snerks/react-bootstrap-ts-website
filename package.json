@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "react": "^16.5.0",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.0",
@@ -11,6 +12,8 @@
     "react-scripts-ts": "2.17.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom --watchAll",
@@ -25,5 +28,6 @@
     "@types/react-router-bootstrap": "^0.24.5",
     "@types/react-router-dom": "^4.3.0",
     "typescript": "^3.0.3"
-  }
+  },
+  "homepage": "https://snerks.github.io/react-bootstrap-ts-website"
 }

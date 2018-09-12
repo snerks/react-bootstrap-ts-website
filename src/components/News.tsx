@@ -6,7 +6,7 @@ export default class News extends React.Component {
   render() {
     return (
       <div>
-        <Image src="assets/mountain-man.jpg" className="header-image" />
+        <Image src="./assets/mountain-man.jpg" className="header-image" />
         <Grid>
           <h2>News</h2>
           <Row>
@@ -53,7 +53,7 @@ export default class News extends React.Component {
               </p>
             </Col>
             <Col xs={12} sm={4} className="sidebar-section">
-              <Image src="assets/dog-people.jpg" />
+              <Image src="./assets/dog-people.jpg" />
               <p>
                 I spend a lot of time walking around in the woods and talking to
                 trees, and squirrels, and little rabbits and stuff. The secret
