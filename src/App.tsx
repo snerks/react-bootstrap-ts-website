@@ -9,7 +9,7 @@ import Navbar from "./components/CustomNavbar";
 class App extends React.Component<{}, {}> {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div>
           <Navbar />
           <Route exact path="/" component={Home} />
